@@ -1,0 +1,41 @@
+= Title
+:source-highlighter: highlight.js
+:revealjs_theme: black
+
+== Main section [[main]]
+
+=== Sub Section [[sub]]
+
+Small +
+Multiline +
+intro
+
+. very
+. long
+. list
+. of
+. items
+
+
+ifdef::backend-revealjs[=== !]
+
+Some overview diagram
+
+ifdef::backend-revealjs[=== !]
+
+Detailed view diagram
+
+ifdef::backend-revealjs[=== !]
+
+
+<<sub,Subesction Link>>
+
+[,rust]
+----
+struct Vec3d {
+    x: f32,
+    y: f32,
+    z: f32
+}
+
+----
